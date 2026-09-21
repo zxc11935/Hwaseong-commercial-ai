@@ -22,7 +22,7 @@ def build_neighbors(features):
 
 @lru_cache(maxsize=1)
 def _read_neighbors(path, mtime):
-    return build_neighbors(json.loads(Path(path).read_text())["features"])
+    return build_neighbors(json.loads(Path(path).read_text(encoding="utf-8"))["features"])
 
 
 def area_neighbors():

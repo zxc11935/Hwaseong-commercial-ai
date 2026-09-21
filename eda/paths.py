@@ -45,8 +45,9 @@ PERMIT_DIR = RAW_DIR / "화성시_인허가데이터"
 CARD_SALES_CSV = RAW_DIR / "card_sales_hwaseong.csv"
 
 # 유동인구
-FLOATING_POP_BROKEN_CSV = RAW_DIR / "유동인구_화성시_행정동_시간대별.csv"
-FLOATING_POP_CSV = RAW_DIR / "floating_pop_hwaseong.csv"
+FLOATING_POP_DIR = RAW_DIR / "화성시_유동인구"
+FLOATING_POP_BROKEN_CSV = FLOATING_POP_DIR / "유동인구_화성시_행정동_시간대별.csv"
+FLOATING_POP_CSV = FLOATING_POP_DIR / "floating_pop_hwaseong.csv"
 
 # KOSIS
 KOSIS_HOUSEHOLD_POP_CSV = RAW_DIR / "읍·면·동별_세대_및_등록인구_20260724063340.csv"
